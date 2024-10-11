@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<StaticObject ObjectName="Sciany">
+	<Visualization>
+		<R>1.0</R>
+		<G>0.8</G>
+		<B>0.4</B>
+		<alphaBlend>0.5</alphaBlend>
+	</Visualization>
+	<CubedModule ModuleName="Podloga">
+		<X>-1650</X>
+		<Y>-828</Y>
+		<Z>-2060</Z>
+		<A>3438</A>
+		<B>-10</B>
+		<C>4540</C>
+	</CubedModule>
+	<CubedModule ModuleName="ScianaZaKawasaki">
+		<X>-1650</X>
+		<Y>-828</Y>
+		<Z>2480</Z>
+		<A>3438</A>
+		<B>2608</B>
+		<C>10</C>
+	</CubedModule>
+	<CubedModule ModuleName="ScianaZaMitsubishi">
+		<X>-1650</X>
+		<Y>-828</Y>
+		<Z>-2070</Z>
+		<A>3438</A>
+		<B>2608</B>
+		<C>10</C>
+	</CubedModule>
+	<CubedModule ModuleName="ScianaZaStolem">
+		<X>1787</X>
+		<Y>-828</Y>
+		<Z>-2060</Z>
+		<A>10</A>
+		<B>2608</B>
+		<C>4540</C>
+	</CubedModule>
+	<!--<CubedModule ModuleName="Podloga">
+    <X>0</X>
+    <Y>-2630</Y>
+    <Z>-2615</Z>
+    <A>3442</A>
+    <B>-10</B>
+    <C>4625</C>
+  </CubedModule>
+  <CubedModule ModuleName="ScianaZaKawasaki">
+    <X>0</X>
+    <Y>-2630</Y>
+    <Z>2010</Z>
+    <A>3442</A>
+    <B>3000</B>
+    <C>10</C>
+  </CubedModule>
+  <CubedModule ModuleName="ScianaZaStolem">
+    <X>3442</X>
+    <Y>-2630</Y>
+    <Z>-2615</Z>
+    <A>10</A>
+    <B>3000</B>
+    <C>4625</C>
+  </CubedModule>
+  <CubedModule ModuleName="ScianaZaMitsubishi">
+    <X>0</X>
+    <Y>-2630</Y>
+    <Z>-2615</Z>
+    <A>3442</A>
+    <B>3000</B>
+    <C>10</C>
+  </CubedModule>-->
+</StaticObject>

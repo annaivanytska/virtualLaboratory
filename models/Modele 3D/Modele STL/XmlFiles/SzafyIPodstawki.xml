@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<StaticObject ObjectName="SzafyIPodstawki">
+	<Visualization>
+		<R>0.8</R>
+		<G>0.8</G>
+		<B>0.8</B>
+		<alphaBlend>1.0</alphaBlend>
+	</Visualization>
+	<CubedModule ModuleName="szafaTasmy">
+		<X>-280</X>
+		<Y>-600</Y>
+		<Z>-55</Z>
+		<A>280</A>
+		<B>600</B>
+		<C>1200</C>
+	</CubedModule>
+	<CubedModule ModuleName="Plyta">
+		<X>-5</X>
+		<Y>0</Y>
+		<Z>0</Z>
+		<A>1600</A>
+		<B>12</B>
+		<C>1095</C>
+	</CubedModule>
+	<CubedModule ModuleName="PodstawkaPodKawasaki">
+		<X>635</X>
+		<Y>-828</Y>
+		<Z>1540</Z>
+		<A>268</A>
+		<B>640</B>
+		<C>268</C>
+	</CubedModule>
+	<CubedModule ModuleName="PodstawkaPodMitsubishi">
+		<X>620</X>
+		<Y>-828</Y>
+		<Z>-690</Z>
+		<A>302</A>
+		<B>640</B>
+		<C>303</C>
+	</CubedModule>
+	<CubedModule ModuleName="szafaKawasaki">
+		<X>-1113</X>
+		<Y>-828</Y>
+		<Z>1780</Z>
+		<A>600</A>
+		<B>1200</B>
+		<C>640</C>
+	</CubedModule>
+	<CubedModule ModuleName="skrzynkaZaKawasaki">
+		<X>1147</X>
+		<Y>-116</Y>
+		<Z>2130</Z>
+		<A>640</A>
+		<B>220</B>
+		<C>350</C>
+	</CubedModule>
+	
+	
+	<!--<CubedModule ModuleName="szafaTasmy">
+		<X>1380</X>
+		<Y>-2450</Y>
+		<Z>-600</Z>
+		<A>280</A>
+		<B>600</B>
+		<C>1200</C>
+	</CubedModule>
+	<CubedModule ModuleName="PodstawkaPodKawasaki">
+    <X>2300</X>
+		<Y>-2630</Y>
+		<Z>1030</Z>
+		<A>300</A>
+		<B>640</B>
+		<C>300</C>
+	</CubedModule>
+  <CubedModule ModuleName="skrzynkaZaKawasaki">
+		<X>2850</X>
+		<Y>-1700</Y>
+		<Z>1660</Z>
+		<A>640</A>
+		<B>220</B>
+		<C>350</C>
+	</CubedModule>
+  <CubedModule ModuleName="szafaKawasaki">
+    <X>535</X>
+    <Y>-2630</Y>
+    <Z>1370</Z>
+    <A>600</A>
+    <B>1200</B>
+    <C>640</C>
+  </CubedModule>
+  <CubedModule ModuleName="PodstawkaPodMitsubishi">
+    <X>2280</X>
+    <Y>-2630</Y>
+    <Z>-1275</Z>
+    <A>305</A>
+    <B>640</B>
+    <C>305</C>
+  </CubedModule>
+  <CubedModule ModuleName="Plyta">
+    <X>1660</X>
+    <Y>-1850</Y>
+    <Z>-600</Z>
+    <A>1745</A>
+    <B>10</B>
+    <C>1200</C>
+  </CubedModule>
+  -->
+</StaticObject>

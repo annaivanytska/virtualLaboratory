@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<StaticObject ObjectName="Sufit">
+	<Visualization>
+		<R>1.0</R>
+		<G>0.8</G>
+		<B>0.4</B>
+		<alphaBlend>0.3</alphaBlend>
+	</Visualization>
+	<CubedModule ModuleName="Sufit">
+		<X>-1650</X>
+		<Y>1780</Y>
+		<Z>-2060</Z>
+		<A>3438</A>
+		<B>10</B>
+		<C>4540</C>
+	</CubedModule>
+</StaticObject>
