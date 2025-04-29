@@ -1,0 +1,64 @@
+cd bin
+mingw32-make
+.\main.cpp
+
+
+Your `Makefile` defines a single target, `all`, which compiles your C++ project into an executable named `main`. Here's a breakdown of each part:
+
+```makefile
+all:
+	g++ -g --std=c++17 -I../include -L../lib ../src/*.cpp ../src/glad.c -lglfw3dll -o main
+```
+
+### Explanation of Each Part:
+
+1. **`all:`**  
+   This is the target name. By convention, `all` is often used as the main or default target in a Makefile. Running `make` with no arguments will build this target.
+
+2. **`g++`**  
+   The `g++` command invokes the GNU C++ compiler.
+
+3. **`-g`**  
+   This flag includes debugging information in the compiled output. It enables you to use a debugger (e.g., `gdb`) to examine the program's runtime state.
+
+4. **`--std=c++17`**  
+   This option specifies that the compiler should use the C++17 standard for compiling the code, ensuring compatibility with C++17 features and syntax.
+
+5. **`-I../include`**  
+   This flag tells the compiler to look for header files in the `../include` directory. This is often used when you have custom headers or libraries that your code depends on, located outside the standard include directories.
+
+6. **`-L../lib`**  
+   The `-L` flag tells the linker to look for libraries in the `../lib` directory. This is where external libraries (like `glfw3dll`) are typically stored.
+
+7. **`../src/*.cpp`**  
+   This part includes all `.cpp` files in the `../src` directory. By using a wildcard (`*`), it compiles all source files in that folder without listing them individually.
+
+8. **`../src/glad.c`**  
+   This includes `glad.c`, likely the source file for `GLAD`, an OpenGL loading library, which needs to be compiled along with your C++ files. GLAD is usually provided in C and not C++, so it's compiled as a C file here.
+
+9. **`-lglfw3dll`**  
+   This links the GLFW library, which provides a simple API for creating windows, contexts, and surfaces, often used in OpenGL projects. The `-lglfw3dll` flag is looking for a library file named `libglfw3dll.so` or `glfw3dll.lib` (depending on the OS) in the specified library path (`../lib`).
+
+10. **`-o main`**  
+    This sets the output filename to `main`. After compiling, the output will be an executable file named `main`.
+
+### What This Makefile Does
+
+When you run `make`:
+
+1. It compiles all `.cpp` files in the `../src` directory and `glad.c` using `g++`.
+2. It links them with the `glfw3dll` library.
+3. It outputs a single executable file named `main`.
+
+This setup suggests a project that uses C++17, depends on GLFW for window management (or similar functionality), and includes OpenGL bindings through GLAD.
+
+
+
+
+assimp
+https://github.com/HeisensOppings/LearnOpengl_Mingw
+
+OLD Makefile
+
+# all:
+# 	g++ -g --std=c++17 -I../include -L../lib ../src/*.cpp ../src/imgui/*.cpp ../src/glad.c -lassimpdll -lglfw3dll  -o main

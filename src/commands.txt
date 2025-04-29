@@ -1,0 +1,35 @@
+SaveHome
+MoveA homePos
+Open
+Wait 0.5
+MoveA -90.0 51.585 21.403 -90.0 -66.403 0.0
+Wait 0.5
+Close
+MoveA -90.0 21.402 21.403 -90.0 -66.403 0.0
+Wait 0.5
+MoveA -16.463 21.402 21.403 -90.0 -66.403 0.0
+Wait 0.5
+MoveA -16.463 49.939 21.403 -90.0 -66.403 0.0
+Wait 0.5
+Open
+MoveA homePos
+---
+
+HomePos 
+move HomePos
+move x y z
+openGrip
+move x y z-1
+closeGrip
+move x y z+5
+move x y z
+move x y z-5
+openGrip
+move x y z+5
+move HomePos
+
+
+-HomePos
+-move
+-openGrip
+-closeGrip
