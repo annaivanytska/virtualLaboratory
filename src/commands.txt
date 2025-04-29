@@ -15,6 +15,14 @@ Open
 MoveA homePos
 ---
 
+-HomePos    : save home position
+-move       : go to point angle0 angle1 angle2 angle3 angle4 angle5 
+-openGrip   : open open gripper
+-closeGrip  : close gripper
+---         : end of thr program
+
+In future: 
+
 HomePos 
 move HomePos
 move x y z
@@ -27,9 +35,3 @@ move x y z-5
 openGrip
 move x y z+5
 move HomePos
-
-
--HomePos
--move
--openGrip
--closeGrip
